@@ -9,3 +9,19 @@ content-type: application/json
     "last_name": "Vieira",
     "biography": "Software Engineer"
 }
+
+###
+GET http://localhost:8080/api/users/32f5d4e6-304c-484a-b8c6-cabcffefaaf2
+
+###
+PUT http://localhost:8080/api/users/32f5d4e6-304c-484a-b8c6-cabcffefaaf2
+content-type: application/json
+
+{
+    "first_name": "Luan",
+    "last_name": "França",
+    "biography": "Senior Software Engineer"
+}
+
+###
+DELETE http://localhost:8080/api/users/32f5d4e6-304c-484a-b8c6-cabcffefaaf2
